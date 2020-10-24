@@ -1,0 +1,8 @@
+{
+    "python.autoComplete.extraPaths": [
+        "./src"
+    ],
+    "python.pythonPath": "/Users/kwangsoo/opt/anaconda3/envs/py38/bin/python",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true
+}

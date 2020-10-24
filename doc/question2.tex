@@ -1,0 +1,142 @@
+% Fair topics for CS340 MIDTERM:
+% \begin{enumerate}
+%     \item test vs. training
+%     \item decision trees
+%     \item decision stumps
+%     \item naive Bayes
+%     \item k-nn
+%     \item ensemble methods
+%     \item clustering
+%     \item outlier detection
+%     \item least squares
+%     \item norms
+%     \item change of bases (polynomial bases)
+%     \item log-sum-exp
+%     \item huber
+%     \item gradient descent
+%     \item linear 
+%     \item nearest neighbors
+%     \item k-means clustering
+%     \item naive Bayes
+%     \item Probabilistic classification
+%     \item cross validation
+% \end{enumerate}
+
+\documentclass{article}
+
+\usepackage{fullpage}
+\usepackage{color}
+\usepackage{amsmath}
+\usepackage{url}
+\usepackage{verbatim}
+\usepackage{graphicx}
+\usepackage{parskip}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{nicefrac}
+\usepackage{listings} % For displaying code
+\usepackage{algorithm2e} % pseudo-code
+\usepackage{natbib}
+\usepackage{todonotes}
+
+% Answers
+\def\rubric#1{\gre{Rubric: \{#1\}}}{}
+
+% Colors
+\definecolor{blu}{rgb}{0,0,1}
+\def\blu#1{{\color{blu}#1}}
+\definecolor{gre}{rgb}{0,.5,0}
+\def\gre#1{{\color{gre}#1}}
+\definecolor{red}{rgb}{1,0,0}
+\def\red#1{{\color{red}#1}}
+\def\norm#1{\|#1\|}
+
+% Math
+\def\R{\mathbb{R}}
+\def\argmax{\mathop{\rm arg\,max}}
+\def\argmin{\mathop{\rm arg\,min}}
+\newcommand{\mat}[1]{\begin{bmatrix}#1\end{bmatrix}}
+\newcommand{\alignStar}[1]{\begin{align*}#1\end{align*}}
+\def\half{\frac 1 2}
+
+% LaTeX
+\newcommand{\fig}[2]{\includegraphics[width=#1\textwidth]{#2}}
+\newcommand{\centerfig}[2]{\begin{center}\includegraphics[width=#1\textwidth]{#2}\end{center}}
+\def\items#1{\begin{itemize}#1\end{itemize}}
+\def\enum#1{\begin{enumerate}#1\end{enumerate}}
+
+% My stuff
+\def\ans#1{\par\gre{Answer: #1}}
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=1
+}
+\lstset{style=mystyle}
+
+\begin{document}
+
+% \begin{enumerate}
+% \item Classifier 1\\
+% \item Classifier 2\\
+% \item Classifier 3\\
+% \item Meta Classifier\\
+% \end{enumerate}
+
+
+
+\setcounter{section}{0}
+
+\section{Team}
+\begin{tabular}{|c | c |} 
+\hline
+Team Members & d8z9a \\
+\hline
+Kaggle Team Name & me and i \\
+\hline
+\end{tabular}
+\section{Solution Summary}
+\emph{In no more than several paragraphs summarize the approach you took to address the problem.}
+\section{Experiments}
+\emph{In this section report, in less than two pages, describe in technical terms the training procedures you used, including how you went about feature selection, hyperparameter value selection, training, and so forth.  Plots related to hyperparameter sweeps and other reportable aspects of your training procedure would be appreciated.}
+
+
+
+\section{Results}
+
+\begin{center}
+ \begin{tabular}{|c | c | c |} 
+ \hline
+ Team Name & Kaggle Phase 1 Score & Kaggle Phase 2 Score  \\ [0.5ex]
+ \hline\hline
+ \emph{the name of your team} & \emph{your Phase 1 Kaggle score}  & \emph{your Phase 2 Kaggle score}  \\
+ \hline
+\end{tabular}
+\end{center}
+
+\section{Conclusion}
+\emph{Describe what you learned and what you would have done were you to have been given more time in a few paragraphs.}
+\newpage
+
+
+
+
+\end{document}
